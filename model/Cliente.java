@@ -4,7 +4,11 @@ public class Cliente {
     private String nombre;
     private String DNI;
     private int edad;
-public Cliente(){}
+    
+    public Cliente(){
+        
+    }
+    
     public Cliente(String nombre, String DNI, int edad) {
         this.nombre = nombre;
         this.DNI = DNI;
@@ -40,7 +44,5 @@ public Cliente(){}
                 "Nombre: " + getNombre() + "\n" +
                 "DNI: " + getDNI() + "\n" +
                 "Edad: " + getEdad() + "\n";
-
-
     }
 }
