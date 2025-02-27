@@ -16,7 +16,6 @@ public class ClienteRepository {
         for (int i = 0; i < clientes.size(); i++) {
             System.out.println("Cliente " + i);
             System.out.println(clientes.get(i).motrarInfo());
-
         }
     }
 
@@ -40,8 +39,9 @@ public class ClienteRepository {
         clientes.add(cliente);
         actualizarEstado();
     }
+    
     public Cliente getclienteById(int id){
-actualizarEstado();
+        actualizarEstado();
         return clientes.get(id);
     }
 
